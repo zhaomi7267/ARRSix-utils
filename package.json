@@ -1,6 +1,6 @@
 {
-  "name": "@arr-six/utils",
-  "version": "1.0.1",
+  "name": "arr-six-utils",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/ARRSix-utils.cjs.js",
   "scripts": {
@@ -29,5 +29,9 @@
   "files": [
     "src",
     "dist/*.js"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
