@@ -1,8 +1,8 @@
 #!/bin/bash
 
-SVC_NAME="actions.runner.zhaomi7267-ARRSix-utils.utils"
+SVC_NAME="actions.runner.zhaomi7267-ARRSix-utils.ubuntu-latest"
 SVC_NAME=${SVC_NAME// /_}
-SVC_DESCRIPTION="GitHub Actions Runner (zhaomi7267-ARRSix-utils.utils)"
+SVC_DESCRIPTION="GitHub Actions Runner (zhaomi7267-ARRSix-utils.ubuntu-latest)"
 
 user_id=`id -u`
 
