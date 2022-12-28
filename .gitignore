@@ -6,9 +6,6 @@ yarn-error.log*
 **/*.log
 dist/
 
-# Prettier local config
-.prettierrc.js
-
 tests/**/coverage/
 tests/e2e/reports
 selenium-debug.log

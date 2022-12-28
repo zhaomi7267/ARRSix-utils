@@ -1,11 +1,13 @@
 {
   "name": "arr-six-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/ARRSix-utils.cjs.js",
   "scripts": {
     "test": "jest",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "lint:eslint": "eslint --fix --ext .js,.ts ./src",
+    "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,ts,json,tsx,css,less,scss,html,md}\""
   },
   "author": "ARRSix",
   "license": "ISC",
@@ -33,5 +35,11 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1"
   }
 }
