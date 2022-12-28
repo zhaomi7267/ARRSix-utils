@@ -1,6 +1,6 @@
 {
   "name": "arr-six-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "dist/ARRSix-utils.cjs.js",
   "scripts": {
