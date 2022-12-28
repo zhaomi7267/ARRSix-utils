@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 21,
+  "agentName": "utils",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/EWOy35lqaSSfP6syFtUMR0CKBcpD9yEX6ypqM5v59Aq01edLL2",
+  "gitHubUrl": "https://github.com/zhaomi7267/ARRSix-utils",
+  "workFolder": "woekfilows"
+}
